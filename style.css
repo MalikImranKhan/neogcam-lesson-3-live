@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
  body{
     margin: 0px;
  }
@@ -52,10 +53,12 @@
     margin: auto;
     padding: 2rem 1.5rem;
     border-radius: 1rem;
+    text-align: center;
 }
 
 h1{
     text-align: center;
+    font-size: 2rem;
 }
 
 p{
@@ -65,7 +68,29 @@ p{
 .container-projects{
     max-width: 80%;
     margin: auto;
-    padding: 2rem 1.5rem;
+    padding: 4rem 1.5rem;
+    text-align: center;
+}
+
+.button{
+    background-color: #7C3AED;
+    padding: 0.7rem 0rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: white;
+    display: block;
+    max-width: 125px;
+    margin: auto;
+}
+
+.button-blogs{
+    display: block;
+    margin: auto;
+    border: 1px solid #7C3AED;
+    max-width: 125px;
+    border-radius: 2rem;
+    padding: 0.7rem 0rem;
+    text-decoration: none;
 }
 
 .container-footer{
@@ -73,7 +98,7 @@ p{
     max-width: 80%;
     margin: auto;
     padding: 1rem 1.5rem;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 
 .footer-heading{
@@ -87,4 +112,10 @@ p{
     color: white;
     display: inline;
     list-style: none;
+    padding: 1rem;
+    
+}
+.list-footer{
+    text-align: center;
+    padding-inline-start: 0px;
 }
